@@ -1,0 +1,22 @@
+<component name="ArtifactManager">
+  <artifact type="apk" name="SimpleDynamo">
+    <output-path>$PROJECT_DIR$/out/artifacts/SimpleDynamo</output-path>
+    <properties id="android-properties">
+      <options>
+        <option name="keyAlias" value="key" />
+        <option name="keyPassword" value="Y2hhbmdlZA==" />
+        <option name="keyStorePassword" value="Y2hhbmdlZA==" />
+        <option name="keyStoreUrl" value="file:///usr/adt-bundle-linux-x86_64-20131030/sdk/tools/MyKeyStore1" />
+        <option name="proGuardCfgFiles">
+          <list>
+            <option value="file://%MODULE_SDK_HOME%/tools/proguard/proguard-android.txt" />
+          </list>
+        </option>
+        <option name="signingMode" value="RELEASE_SIGNED" />
+      </options>
+    </properties>
+    <root id="archive" name="SimpleDynamo.apk">
+      <element id="android-final-package" facet="SimpleDynamo/android/Android" />
+    </root>
+  </artifact>
+</component>
